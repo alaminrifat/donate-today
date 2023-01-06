@@ -4,8 +4,8 @@
 }
 .btn-primary{
     height: 64px;
+    background: #FF5959;
     border-radius: 5px;
-    background: #FD6E0A;
     color: #ffffff;
     font-weight: 700;
     font-size: 20px;
@@ -59,6 +59,7 @@ nav>p{
     font-size: 18px;
     line-height: 28px;
     color: #707070;
+    text-align: center;
 }
 
 /* Donate today */
@@ -67,6 +68,7 @@ nav>p{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 130px;
 }
 .donate-today>h3 ,.donate-today>p{
     margin-bottom: 20px;
@@ -84,10 +86,91 @@ nav>p{
     font-size: 30px;
     line-height: 36px;
     text-align: center;
-    color: #707070;    
+    color: #707070;   
+    margin-bottom:60px ; 
 }
 .selected{
     background: #FFEEEE;
     border: 2px solid #FF5959;
     border-radius: 5px;
+}
+
+.donate-today>input{
+    width: 765px;
+    text-align:center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #B3B3B3;
+    border: none;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 30px;
+}
+/* Donate plan */
+.donate-plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 130px;
+}
+
+.donate-plan>h3 ,.donate-plan>p{
+    margin-bottom: 20px;
+    width: 691px;
+    text-align: center;
+}
+
+.plan-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 24px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.plan{
+    
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.plan-description{
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 54px;
+}
+.color-a{
+    background: rgba(79, 157, 166, 0.1);
+}
+.color-b{
+    background: rgba(255, 89, 89, 0.1);
+}
+.color-c{
+    background: #FFF4D6;
+}
+/* how to contribute */
+.how-to-contribute{
+    display: flex;
+    align-items: center;
+    gap: 83px;
+    
+    margin: 0 100px 100px 100px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.text>h3,p{
+    margin-bottom: 20px;
+    text-align: center;
 }
